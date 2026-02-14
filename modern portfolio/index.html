@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+  <title>Crystal Sorcerer · Eternal Infinity</title>
+  <!-- Font Awesome 6 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Google Fonts: Cormorant Garamond + Montserrat (elegant & mystical) -->
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- PRELOADER -->
+  <div id="preloader" class="preloader">
+    <div class="crystal-sphere"></div>
+    <canvas id="beam-canvas"></canvas>
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div id="main-content" class="hidden">
+    <!-- DYNAMIC CRYSTAL BACKGROUND CANVAS -->
+    <canvas id="crystal-bg-canvas"></canvas>
+    <div class="crystal-overlay"></div>
+
+    <!-- STICKY NAV -->
+    <nav class="sticky-nav">
+      <div class="nav-container">
+        <div class="nav-brand">⟡ CRYSTAL SORCERER ⟡</div>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="nav-link">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certificates" class="nav-link">Certificates</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+        <div class="nav-toggle" id="navToggle"><i class="fas fa-bars"></i></div>
+      </div>
+    </nav>
+
+    <!-- HOME SECTION - ENHANCED CRYSTAL THEME -->
+    <section id="home" class="section hero">
+      <div class="hero-backdrop">
+        <div class="floating-crystals">
+          <div class="crystal-1"></div>
+          <div class="crystal-2"></div>
+          <div class="crystal-3"></div>
+          <div class="crystal-4"></div>
+          <div class="crystal-5"></div>
+        </div>
+      </div>
+      <div class="hero-wrapper">
+        <div class="hero-content glass-card">
+          <div class="hero-profile">
+            <div class="crystal-frame">
+              <div class="crystal-glow"></div>
+              <img src="images/profile.jpeg" alt="crystal sorcerer" class="profile-img">
+            </div>
+            <div class="crystal-shards">
+              <span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="hero-text">
+            <div class="hero-tagline">⟡ eternal weaver of light ⟡</div>
+            <h1 class="hero-title">
+              <span class="title-line">I AM</span>
+              <span class="title-main crystal-text"><span class="typed"></span></span>
+            </h1>
+            <div class="hero-divider">
+              <span class="divider-line"></span>
+              <i class="fas fa-crystal"></i>
+              <span class="divider-line"></span>
+            </div>
+            <p class="hero-description">infinity architect · crystal mage · domain master</p>
+            <div class="hero-stats">
+              <div class="stat-item">
+                <span class="stat-number">5+</span>
+                <span class="stat-label">years</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">25+</span>
+                <span class="stat-label">projects</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">eternal</span>
+              </div>
+            </div>
+            <div class="hero-actions">
+              <a href="#projects" class="btn primary-btn">
+                <span>view crystal works</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn outline-btn">
+                <span>summon me</span>
+                <i class="fas fa-crystal"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <span class="scroll-text">descend into the crystal realm</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section about">
+      <div class="section-header">
+        <span class="section-subtitle">✦ crystal chronicles ✦</span>
+        <h2 class="section-title crystal-title">about the mage</h2>
+        <div class="title-crystal"></div>
+      </div>
+      <div class="about-container reveal">
+        <div class="about-visual">
+          <div class="crystal-portal">
+            <div class="portal-ring"></div>
+            <div class="portal-core">
+              <img src="images/pic.jpeg" alt="crystal mage">
+            </div>
+          </div>
+        </div>
+        <div class="about-content glass-card">
+          <div class="about-badge">⟡ infinity weaver since 2020 ⟡</div>
+          <p class="about-description">I am a Frontend Developer with a passion for creating immersive digital experiences. My journey through the cosmos of web development has equipped me with the skills to build stunning, user-centered interfaces.
+
+My journey in tech began when I built my first website at 18. Since then, I've worked with solo & teams and to solve complex problems with elegant solutions. Currently I`m pursuing Computer Science engineering from Satyam International Institute of Technology.</p>
+          <div class="crystal-timeline">
+            <div class="timeline-node">
+              <div class="node-crystal"></div>
+              <div class="node-content">
+                <span class="node-year">2026</span>
+                <span class="node-title">Computer Science Engineering</span>
+                <span class="node-desc">College of Engineering · Satyam International Institute</span>
+              </div>
+            </div>
+            <div class="timeline-node">
+              <div class="node-crystal"></div>
+              <div class="node-content">
+                <span class="node-year">2023</span>
+                <span class="node-title">Matriculation</span>
+                <span class="node-desc">School of Crystals · Guru Govind Singh Boys High School</span>
+              </div>
+            </div>
+            <!-- <div class="timeline-node">
+              <div class="node-crystal"></div> -->
+              <!-- <div class="node-content">
+                <span class="node-year">2025</span>
+                <span class="node-title">Independent Infinity Architect</span>
+                <span class="node-desc">Crystal Domain · Eternal Realm</span> -->
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION WITH CRYSTAL ORB -->
+    <section id="skills" class="section skills">
+      <div class="section-header">
+        <span class="section-subtitle">✦ crystal resonance ✦</span>
+        <h2 class="section-title crystal-title">arcane skills</h2>
+        <div class="title-crystal"></div>
+      </div>
+      
+      <div class="filter-wrapper">
+        <div class="filter-container">
+          <i class="fas fa-crystal search-crystal"></i>
+          <input type="text" id="skillSearch" placeholder="filter crystalline abilities..." class="filter-input">
+        </div>
+      </div>
+      
+      <div class="crystal-orb-section">
+        <div class="orb-universe">
+          <div class="orb-crystal-core">
+            <div class="core-inner"></div>
+            <div class="core-pulse"></div>
+          </div>
+          <div class="orb-ring crystal-ring-1"></div>
+          <div class="orb-ring crystal-ring-2"></div>
+          <div class="orb-ring crystal-ring-3"></div>
+          <div class="orb-ring crystal-ring-4"></div>
+          <div class="floating-crystal-skills" id="floatingSkills"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section projects">
+      <div class="section-header">
+        <span class="section-subtitle">✦ crystal grimoire ✦</span>
+        <h2 class="section-title crystal-title">enchanted projects</h2>
+        <div class="title-crystal"></div>
+      </div>
+      
+      <div class="filter-wrapper">
+        <div class="filter-container">
+          <i class="fas fa-crystal search-crystal"></i>
+          <input type="text" id="projectSearch" placeholder="filter crystal projects..." class="filter-input">
+        </div>
+      </div>
+      
+      <div class="projects-grid" id="projectGrid"></div>
+    </section>
+
+    <!-- PROJECT MODAL -->
+    <div id="projectModal" class="modal">
+      <div class="modal-content crystal-modal">
+        <span class="close-modal">&times;</span>
+        <div class="modal-crystal-frame">
+          <img id="modalImage" src="" alt="">
+        </div>
+        <div class="modal-details">
+          <h3 id="modalTitle" class="modal-title"></h3>
+          <p id="modalDesc" class="modal-description"></p>
+          <div class="modal-links">
+            <a id="modalLive" href="#" target="_blank" class="btn primary-btn">view live crystal</a>
+            <a id="modalGit" href="#" target="_blank" class="btn outline-btn">github shard</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDUCATION SECTION - CRYSTAL TREE -->
+    <section id="education" class="section education">
+      <div class="section-header">
+        <span class="section-subtitle">✦ crystal wisdom ✦</span>
+        <h2 class="section-title crystal-title">sacred education</h2>
+        <div class="title-crystal"></div>
+      </div>
+      <div class="crystal-tree-container">
+        <div class="crystal-tree" id="educationTree"></div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATES SECTION -->
+    <section id="certificates" class="section certificates">
+      <div class="section-header">
+        <span class="section-subtitle">✦ crystal achievements ✦</span>
+        <h2 class="section-title crystal-title">ethereal certificates</h2>
+        <div class="title-crystal"></div>
+      </div>
+      <div class="cert-grid" id="certGrid"></div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section contact">
+      <div class="section-header">
+        <span class="section-subtitle">✦ crystal summoning ✦</span>
+        <h2 class="section-title crystal-title">contact the mage</h2>
+        <div class="title-crystal"></div>
+      </div>
+      <div class="contact-wrapper">
+        <div class="contact-container glass-card">
+          <div class="contact-crystal"></div>
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">your true name</label>
+              <input type="text" id="name" name="name" placeholder="enter your crystal name" required>
+            </div>
+            <div class="form-group">
+              <label for="email">crystal email</label>
+              <input type="email" id="email" name="email" placeholder="your ethereal address" required>
+            </div>
+            <div class="form-group">
+              <label for="message">crystal message</label>
+              <textarea id="message" name="message" rows="4" placeholder="what shall we conjure together?" required></textarea>
+            </div>
+            <button type="submit" class="btn primary-btn submit-btn">
+              <span>send crystal signal</span>
+              <i class="fas fa-crystal"></i>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FLOATING CRYSTAL SOCIAL -->
+    <div class="floating-crystal-social">
+      <a href="https://wa.me/9308631825" target="_blank" class="crystal-social-icon"><i class="fab fa-whatsapp"></i></a>
+      <a href="https://github.com/Shlok-Vertex" target="_blank" class="crystal-social-icon"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/shlok-sri/" target="_blank" class="crystal-social-icon"><i class="fab fa-linkedin-in"></i></a>
+      <a href="https://www.instagram.com/shlok__23_sri/" target="_blank" class="crystal-social-icon"><i class="fab fa-instagram"></i></a>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="crystal-footer-decoration"></div>
+      <div class="footer-content">
+        <p class="copyright">⟡ 2026 · CRYSTAL SORCERER · INFINITY AURA ⟡</p>
+        <ul class="footer-links">
+          <li><a href="#home">crystal home</a></li>
+          <li><a href="#about">crystal chronicles</a></li>
+          <li><a href="#contact">crystal summon</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
